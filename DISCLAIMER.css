@@ -1,0 +1,51 @@
+body{
+	color: #F6FE06 ;
+ background-color: #403C3C;
+}
+h1{
+	text-align: center;
+	color :#F6FE06;
+	font-family: Snap ITC;
+font-style: normal;
+font-weight: normal;
+	font-size: 550% ;
+}
+h3{
+
+	padding-top: 4%;
+	font-family: Viner Hand ITC;
+	text-align: center;
+	color :#F6FE06;
+	font-size: 150%;
+}
+button{
+position: absolute;
+margin-top: 5%;
+/*justify-content: center;
+align-content: center;
+*/
+display: block;
+width: 170px;
+height: 50px;
+left: 45%;
+/*top: 160%;*/
+color: red;
+
+font-family: Tahoma;
+background:#F6FE06 ;
+border-radius: 35px;
+/*border: none;*/
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

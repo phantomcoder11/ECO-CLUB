@@ -1,0 +1,52 @@
+body{
+	background-image: url("solidgreenbg.jpeg");
+	background-repeat: no-repeat;
+	background-attachment : fixed;
+	background-size: cover;
+}
+header{
+	text-align: center;
+	color: white;
+}
+#palash{
+	padding: 3%;
+	color: white;
+	text-align: left;
+ border-spacing: 10%;
+}
+#bharati{
+	padding: 3%;
+	color: white;
+	text-align: right;
+}
+#arindam{
+	padding: 3%;
+	color: white;
+	text-align: left;
+	border-left: 90px; 
+}
+#borah{
+	padding: 3%;
+	color: white;
+	text-align: right;}
+#emon{
+	padding: 3%;
+	color: white;
+	text-align: left;
+}
+.myimage{
+    text-align: right;
+	width: 250px;
+	height: 250px;
+	border-radius: 500px;
+}
+#Executivemembers{
+	padding: 5%;
+	color: white;
+	text-align: center;
+}
+#Secretary{
+	padding: 5%;
+	color: white;
+	text-align: center;
+}

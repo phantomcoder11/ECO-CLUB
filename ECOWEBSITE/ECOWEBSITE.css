@@ -1,0 +1,293 @@
+body{
+  background-image: url("img/solidgreenbg.jpeg");
+  background-repeat: no-repeat;
+  background-attachment : fixed;
+  background-size: cover;
+}
+.verticalline{
+   border-top: 0.5px solid black;
+}
+
+h1{
+  position: relative;
+  text-align: center;
+  font-family: Poor Richard;
+  font-size: 400%;
+  color:white;
+  padding-bottom: 2vh;
+  text-shadow: 2px 4px 4px #000000;
+
+  
+}
+#logo{
+  position: absolute;
+  
+  width: 100px;
+  height:100px;
+ margin-left: 20%;
+ margin-bottom: 10%;
+  padding-bottom: 2vh;
+
+}
+
+.header{
+padding-top: 5%;
+padding-bottom: 5%;
+}
+/*nav bar*/
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #C4C4C4;
+}
+
+.nav li {
+  float: left;
+}
+
+.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 18px 30px;
+  text-decoration: none;
+  font-size: 150%;
+  text-shadow: 2px 1px 4px #000000;
+
+}
+
+.nav li a:hover:not(.active) {
+  background-color: green;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+/*PHOTO GALLERY
+*/
+
+.photographer{
+
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+.carasel-container{
+  width:75vw;
+  margin:auto;
+  margin-top:8vh;
+  border:5px solid black;
+  position:relative;
+  overflow:hidden;
+  border-radius:5px;
+  box-shadow:2px 0px 5px 3px lightyellow;
+}
+.carasel-slider{
+  display:flex;
+  width:100%;
+  height:420px;
+}
+#previous{
+  height:30px;
+  width:40px;
+  position:absolute;
+  margin-top:-210px;
+  margin-left:1vw;
+  opacity:0.5;
+}
+#next{
+  height:30px;
+  width:40px;
+  opacity:0.5;
+  position:absolute;
+  margin-top:-210px;
+  margin-left:69.5vw;
+}
+.intro{
+  width:100vw;
+  height:10vh;
+  padding-top:15px;
+  font-size:130%;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+}
+
+/*
+LOGO*/
+#RRR{
+  margin-top: 13vh;
+  position: absolute;
+  width: 20vw;
+  height: 25vh;
+ padding-left: 5vw;
+
+/* margin-left: 20%;
+ margin-bottom: 10%;*/
+
+}
+
+
+/*DESCRIPTION*/
+
+.des{
+  position: relative;
+ font-size: 150%;
+  text-align: left;
+   font-family: Poor Richard;
+   color: white;
+   padding-left: 30%;
+/*   margin-top: 5%;*/
+   margin-bottom: 7%;
+   margin-top: 10vh;
+ 
+
+}
+#headofdes{
+color: yellow;
+
+ position:relative;
+  font-family: Viner Hand ITC;
+
+   font-size: 150%;
+   text-shadow: 2px 4px 4px #000000;
+ 
+}
+.despo{
+  float: left;
+}
+
+.comp{
+  position: relative;
+  padding-bottom: 30px;
+ padding-top: 5%;
+}
+
+#ONGOING{
+  position: relative;
+  text-align: center;
+  font-family: Modern No. 20;
+  font-size: 350%;
+  color:white;
+  padding-bottom: 2vh;
+  text-shadow: 2px 4px 4px #000000;
+  padding-bottom: 10%;
+}
+.COMPETITIONS{
+  position: relative;
+  text-align: center;
+  font-family: Viner Hand ITC;
+  font-size: 150%;
+  color:white;
+  padding-bottom: 2vh;
+  text-shadow: 2px 4px 4px #000000;
+  padding-bottom: 15%
+}
+.contact{
+    position: relative;
+  text-align: center;
+  font-family: Poor Richard;
+  font-size: 350%;
+  color:white;
+  padding-bottom: 2vh;
+  text-shadow: 2px 4px 4px #000000;
+  padding-bottom: 10%;
+  padding-top: 10%;
+}
+
+@-webkit-keyframes Gradient {
+      0%{
+        background-position: 0% 50%;
+      }
+      50%{
+        background-position: 100% 50%;
+      }
+      100%{
+        background-position: 0% 50%;
+      }
+    }
+
+.media li{
+
+      list-style: none;
+      margin:30px 25px;
+      display: inline-block;
+      font-size: 30px;
+      padding: 20px 25px;
+      color: yellow;
+      border:1px solid white;
+      border-radius: 50%;
+      transition: .5s;
+    }
+    .media li:hover{
+      color: yellow;
+      border: 7px solid yellow;
+      transition: .5s;
+    }
+
+    .media{
+      position: absolute;
+      left: 33%
+    }
+
+
+/*    FLIPPERS*/
+
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  align-items: center;
+  justify-items: center;
+  grid-gap: 15px;
+}
+
+.flip-card {
+  border-style: hidden;
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: yellow;
+  color: red;
+  transform: rotateY(180deg);
+  padding: 20%;
+}
