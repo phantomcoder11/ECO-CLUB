@@ -1,4 +1,7 @@
 
+const notdone = document.querySelector(".News-not");
+
+const incomplete = document.querySelector(".Contact-not");
 
 const caraselSlider=document.querySelector(".carasel-slider");
 const caraselImage=document.querySelectorAll(".carasel-slider img");
@@ -8,6 +11,14 @@ const nextButton=document.querySelector("#next");
 let imageLength=8;
 let counter=0;
 const size=caraselImage[0].clientWidth;
+
+
+notdone.addEventListener("click",function(){
+    alert("News page is not yet ready");
+})
+incomplete.addEventListener("click",function(){
+    alert("Contact page is not yet ready");
+})
 
 
 previousBtn.addEventListener("click",()=>{
