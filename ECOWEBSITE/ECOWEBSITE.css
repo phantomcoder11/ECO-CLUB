@@ -302,3 +302,8 @@ color: yellow;
 .Contact-not{
   cursor: pointer;
 }
+/* FLOATING ANIMATION */
+
+html{
+  scroll-behavior: smooth;
+}
