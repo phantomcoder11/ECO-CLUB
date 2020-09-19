@@ -221,19 +221,21 @@ color: yellow;
       font-size: 30px;
       padding: 20px 25px;
       color: yellow;
-      border:1px solid white;
+      border:1px solid green;
       border-radius: 50%;
       transition: .5s;
+      background-color: #CAFD5D;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     }
     .media li:hover{
       color: yellow;
-      border: 7px solid yellow;
+      border: 7px solid #7EE141;
       transition: .5s;
     }
 
     .media{
       position: absolute;
-      left: 33%
+      left: 32%
     }
 
 
@@ -291,6 +293,7 @@ color: yellow;
   transform: rotateY(180deg);
   padding: 20%;
 }
+
 
 /*CURSOR*/
 .News-not{
