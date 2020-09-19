@@ -291,3 +291,11 @@ color: yellow;
   transform: rotateY(180deg);
   padding: 20%;
 }
+
+/*CURSOR*/
+.News-not{
+  cursor: pointer;
+}
+.Contact-not{
+  cursor: pointer;
+}
